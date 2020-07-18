@@ -1,0 +1,20 @@
+contact:
+    tel: 555-111-2222
+    email: contact@jpassion.com
+    web: http://jpassion.com
+
+server:
+    address: 127.0.0.1
+    port: 8000
+---
+spring:
+    profiles: development
+server:
+    address: 127.0.0.1
+    port: 8080
+---
+spring:
+    profiles: production
+server:
+    address: 127.0.0.1
+    port: 8888
